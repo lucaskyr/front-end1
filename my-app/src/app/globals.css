@@ -51,13 +51,35 @@ table {
 html{
   font-size: 62.5%;
 }
+body{
+	display: flex;
+	justify-content: center;
+}
 
 h1{
   font-size: 3rem;
+  margin: 1rem;
+  font-weight: bold;
 }
 h2{
   font-size: 2.5rem;
+  margin: 2 rem;
+  font-weight: bold;
 }
 p{
   font-size: 1.6rem;
+  margin: 0.5 rem;
+  font-weight: bold;
+}
+@media screen  and (max-width:720px){
+	html{
+		font-size: 50%;
+	}
+	
+}
+@media screen  and (max-width:520px){
+	html{
+		font-size: 30%;
+	}
+	
 }
