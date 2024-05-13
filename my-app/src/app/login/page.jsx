@@ -3,7 +3,7 @@ import styles from './page.module.css'
 export default function(){
     return(
         <>
-        <div className='styles.container'>
+        <div className='container'>
         <h1>login</h1>
         <span>e-mail</span>
         <input  />

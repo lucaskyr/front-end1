@@ -71,6 +71,21 @@ p{
   margin: 0.5 rem;
   font-weight: bold;
 }
+
+.container{
+display: flex;
+flex-direction: column;
+background-color: 666;
+/* border-style: solid;
+border-width: 0.8rem;
+border-color:aqua ; */
+border: solid 0.5rem black;
+margin-top: 1.5rem;
+margin: 2rem;
+width: 100%;
+max-width: 1440px;
+padding: 2rem;
+}
 @media screen  and (max-width:720px){
 	html{
 		font-size: 50%;

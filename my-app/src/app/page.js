@@ -14,7 +14,7 @@ export default function Home() {
         <h2>outro Subtitulo</h2>
       </div>
       
-      <p><Link href={'login'} >sobre</Link></p>
+      <p><Link href={'login'} >login</Link></p>
       <p><Link href={'produtos'} >produtos</Link></p>
 
     </main>
