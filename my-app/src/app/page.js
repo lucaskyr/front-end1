@@ -16,6 +16,7 @@ export default function Home() {
       
       <p><Link href={'login'} >login</Link></p>
       <p><Link href={'produtos'} >produtos</Link></p>
+      <p><Link href={'cadastro'} >cadastro</Link></p>
 
     </main>
   );

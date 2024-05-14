@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,6 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -76,9 +76,9 @@ p{
 display: flex;
 flex-direction: column;
 background-color: 666;
-/* border-style: solid;
+border-style: solid;
 border-width: 0.8rem;
-border-color:aqua ; */
+border-color:aqua ;
 border: solid 0.5rem black;
 margin-top: 1.5rem;
 margin: 2rem;
