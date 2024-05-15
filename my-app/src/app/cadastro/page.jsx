@@ -8,7 +8,7 @@ export default function(){
                 <div className={styles["main-cadastro"]}>
                     <div className={styles["left-cadastro"]}>
                         <h1>De o primeiro passo para uma jornada de<br />cuidados automotivos sem preocupações</h1>
-                        <img src="/parque.svg" className={styles['left-img']} alt="" />
+                        <img src="/image/parque.svg" className={styles['left-img']} alt="" />
                     </div>
                     <div className={["rigth-cadastro"]}>
                         <div className={styles["card-cadastro"]}>

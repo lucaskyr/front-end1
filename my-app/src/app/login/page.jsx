@@ -7,7 +7,7 @@ export default function(){
                 <div className={styles["main-login"]}>
                     <div className={styles["left-login"]}>
                         <h1 >bem vindo  Agende agora e <br />impulsione sua confiança na estrada </h1>
-                        <img src="/driver.svg" className={styles['left-img']} alt="" />
+                        <img src="/image/driver.svg" className={styles['left-img']} alt="" />
                     </div>
                  <div className={styles["right-login"]}>
                         <div className={styles["card-login"]}>
