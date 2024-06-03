@@ -1,6 +1,10 @@
+'use client'
+ 
+import { useRouter } from 'next/navigation'
 import Link from 'next/link';
 import styles from './login.module.css'
 export default function(){
+    const router = useRouter()
     return(
         <>
             <body className={styles["body"]}>
@@ -20,7 +24,7 @@ export default function(){
                                 <label for="senha">senha</label>
                                 <input type="password" name='Senha' placeholder='Senha'/>
                             </div>
-                            <button className={styles["btn-login"]}>Login</button>
+                            <button className={styles["btn-login"]} onClick={() => router.push('/homeusu')}>Login</button>
                         </div>
                      </div>
                 </div>

@@ -15,3 +15,8 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+

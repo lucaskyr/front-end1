@@ -50,7 +50,7 @@
 .card-login > h1 {
     color:#fdf9f9;
     font-weight: 800;
-    margin: 0;
+    margin: 5px;
 }
 .text-field{
     width: 100%;
@@ -97,6 +97,7 @@
 @media only screen and (max-width: 950px ) {
     .card-login{
         width: 85%;
+        margin: 5%;
     }
 }
 @media only screen and (max-width: 600px ){
@@ -119,5 +120,9 @@
     }
     .card-login{
         width: 90%;
+        margin: 5%;
+    }
+    .text-field>label{
+        font-size: 10px;
     }
 }
